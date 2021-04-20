@@ -1,0 +1,22 @@
+.tr-nav{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 10px;
+  }
+nav {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  ul{
+    list-style: none;
+    li{
+      display: inline;
+      padding: 10px;
+      font-size: 20px;
+      a{
+        color: white;
+      }
+    }
+  }
+}

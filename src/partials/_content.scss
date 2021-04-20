@@ -1,0 +1,27 @@
+.jumbotron{
+  h1{
+    font-size: 40px;
+    span{
+      font-size: 16px;
+    }
+  }
+  .info{
+    .commercial{
+      color: purple;
+      h5{
+        margin-bottom: 0;
+      }
+    }
+    .jb-btns{
+      margin-top: 15px;
+      button{
+        padding: 10px 15px;
+        background-color: rgba(0, 0, 0, 0);
+        &:hover{
+          background-color: black;
+          color: white;
+        }
+      }
+    }
+  }
+}
